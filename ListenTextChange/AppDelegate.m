@@ -23,4 +23,14 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)text1Changing:(id)sender {
+    NSTextField * tf = (NSTextField *)sender;
+    NSLog(@"text1: %@", [tf stringValue]);
+}
+
+- (IBAction)text2Changing:(id)sender {
+    NSTextField * tf = (NSTextField *)sender;
+    NSLog(@"text2: %@", [tf stringValue]);
+}
+
 @end

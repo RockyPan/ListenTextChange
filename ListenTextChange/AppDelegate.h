@@ -11,5 +11,8 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 
+- (IBAction)text1Changing:(id)sender;
+- (IBAction)text2Changing:(id)sender;
+
 @end
 
